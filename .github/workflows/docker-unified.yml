@@ -11,6 +11,7 @@ on:
     branches:
       - master
       - releases/**
+      - oss-github-runner-cypress
   pull_request:
     types: [opened, synchronize, reopened, labeled]
     branches:
